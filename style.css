@@ -29,6 +29,14 @@ text-decoration: none;
 color: #333;
 }
 
+.homebutton-header:hover {
+    background-color: #ccc;
+}
+
+.addPostbutton-header:hover {
+    background-color: #ccc;
+}
+
 .container {
 display: flex;
 padding: 20px;
