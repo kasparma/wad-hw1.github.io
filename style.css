@@ -125,3 +125,21 @@ margin: 5px 0;
 text-decoration: none;
 color: #0073e6;
 }
+
+#postButton {
+    background-color: darkgreen;
+    color: white;
+}
+
+form > label {
+    font-weight: bold;
+    color: #004080;
+}
+
+label + textarea {
+    background-color: white;
+}
+
+h3 ~ p {
+    color: gray;
+}
