@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Home</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="res/css/style.css">
 </head>
 <body>
   <header>
@@ -13,80 +13,17 @@
         <a href="index.html" class="homebutton-header">Home</a> |
         <a href="addPost.html" class="addPostbutton-header">Add post</a>
       </div>
-      <div><a href="login.html"><img src="images/profile.png" alt="Profile" width="30"></a></div>
+      <div><a href="login.html"><img src="res/images/profile.png" alt="Profile" width="30"></a></div>
     </nav>
   </header>
 
   <div class="container">
     <div class="sidebar"></div>
-
-    <div class="posts">
-
-      <div class="post">
-        <div class="post-header">
-          <div class="user-info">
-            <img src="images/profile.png" alt="Profile picture" class="profile-pic">
-          </div>
-          <div class="date">Oct 20, 2025</div>
-        </div>
-        <img src="images/forest.jpg" alt="Post image">
-        <p>Went to the forest today!</p>
-        <div class="like">👍</div>
-      </div>
-
-  <div class="post">
-    <div class="post-header">
-      <div class="user-info">
-        <img src="images/profile.png" alt="Profile picture" class="profile-pic">
-      </div>
-      <div class="date">Oct 2, 2025</div>
-    </div>
-    <p>Anyone knows in which room is the lab today?</p>
-    <div class="like">👍</div>
-  </div>
-
-  <div class="post">
-        <div class="post-header">
-          <div class="user-info">
-            <img src="images/profile.png" alt="Profile picture" class="profile-pic">
-          </div>
-          <div class="date">Sept 15, 2025</div>
-        </div>
-        <img src="images/parnu.jpg" alt="Post image">
-        <p>Beautiful day in Pärnu.</p>
-        <div class="like">👍</div>
-      </div>
-
-   <div class="post">
-     <div class="post-header">
-      <div class="user-info">
-        <img src="images/profile.png" alt="Profile picture" class="profile-pic">
-      </div>
-      <div class="date">Sept 7, 2025</div>
-    </div>
-    <p>I forgot my jacket inside the room 1007. 
-        Can someone help me get it back?</p>
-    <div class="like">👍</div>
-  </div>
-
-    <div class="post">
-     <div class="post-header">
-      <div class="user-info">
-        <img src="images/profile.png" alt="Profile picture" class="profile-pic">
-      </div>
-      <div class="date">Sept 1, 2025</div>
-    </div>
-    <p>Happy new school year!</p>
-    <div class="like">👍</div>
-  </div>
-
-
-</div>
+    <div id="posts" class="posts"></div>
     <div class="rightbar">
-
-
-    </div></div>
+  </div>
 
   <footer></footer>
+  <script src="res/scripts/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "author": "Toomas",
+    "content": "Does anyone want to join for a coffee break and discuss?",
+    "image": null,
+    "created_at": "2025-07-25T00:00:00Z",
+    "likes": 3,
+    "comments": []
+  },
+  {
+    "id": 2,
+    "author": "Kati",
+    "content": "Looking forward to the next group project!",
+    "image": null,
+    "created_at": "2025-07-30T00:00:00Z",
+    "likes": 4,
+    "comments": []
+  },
+  {
+    "id": 3,
+    "author": "Toomas",
+    "content": "Hello hello",
+    "image": null,
+    "created_at": "2025-08-10T00:00:00Z",
+    "likes": 1,
+    "comments": []
+  },
+  {
+    "id": 4,
+    "author": "Eve",
+    "content": "Check out this sunset!",
+    "image": "sunset.jpg",
+    "created_at": "2025-08-15T00:00:00Z",
+    "likes": 10,
+    "comments": []
+  },
+  {
+    "id": 5,
+    "author": "Mari",
+    "content": "Happy new school year!",
+    "image": null,
+    "created_at": "2025-09-01T00:00:00Z",
+    "likes": 8,
+    "comments": []
+  },
+  {
+    "id": 6,
+    "author": "Karl",
+    "content": "I forgot my jacket inside the room 1007. Can someone help me get it back?",
+    "image": null,
+    "created_at": "2025-09-07T00:00:00Z",
+    "likes": 2,
+    "comments": []
+  },
+  {
+    "id": 7,
+    "author": "Liis",
+    "content": "Beautiful day in Pärnu.",
+    "image": "parnu.jpg",
+    "created_at": "2025-09-15T00:00:00Z",
+    "likes": 5,
+    "comments": []
+  },
+  {
+    "id": 8,
+    "author": "Jaan",
+    "content": "Made something silly in the workshop",
+    "image": "workshop.jpg",
+    "created_at": "2025-09-25T00:00:00Z",
+    "likes": 10,
+    "comments": []
+  },
+  {
+    "id": 9,
+    "author": "Mati",
+    "content": "Anyone knows in which room is the lab today?",
+    "image": null,
+    "created_at": "2025-10-02T00:00:00Z",
+    "likes": 3,
+    "comments": []
+  },
+  {
+    "id": 10,
+    "author": "Anna",
+    "content": "Went to the forest today!",
+    "image": "forest.jpg",
+    "created_at": "2025-10-20T00:00:00Z",
+    "likes": 7,
+    "comments": []
+  }
+]
