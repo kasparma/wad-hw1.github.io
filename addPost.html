@@ -12,11 +12,17 @@
       <div>
         <a href="index.html" class="homebutton-header">Home</a>
       </div>
-      <div>
-        <a href="login.html"><img src="images/profile.png" alt="Profile" width="30"></a>
+      <div class="profile-container">
+        <img src="res/images/profile.png" alt="Profile" width="30" id="profile-pic">
+        <div class="dropdown-menu" id="dropdown">
+          <p><strong>John Doe</strong></p>
+          <p>john.doe@ut.ee</p>
+          <a href="login.html">logout</a>
+        </div>
       </div>
     </nav>
   </header>
+
 
   <div class="form-container">
     <form action="index.html">
@@ -27,5 +33,6 @@
       <button id="postButton" type="submit">Create post</button>
     </form>
   </div>
+  <script src="res/scripts/main.js"></script>
 </body>
 </html>

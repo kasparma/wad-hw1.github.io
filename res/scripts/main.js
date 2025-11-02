@@ -25,3 +25,21 @@ fetch('https://api.jsonbin.io/v3/b/6904d6c3ae596e708f3a7c43')
     postsContainer.innerHTML = 'Failed to load posts.';
     console.error(error);
   });
+
+  document.addEventListener('DOMContentLoaded', () => {
+  const profile = document.getElementById('profile-pic');
+  const dropdown = document.getElementById('dropdown');
+
+  if (profile && dropdown) {
+    profile.addEventListener('click', (event) => {
+      event.stopPropagation();
+      dropdown.classList.toggle('show');
+    });
+
+    window.addEventListener('click', (event) => {
+      if (!profile.contains(event.target) && !dropdown.contains(event.target)) {
+        dropdown.classList.remove('show');
+      }
+    });
+  }
+});

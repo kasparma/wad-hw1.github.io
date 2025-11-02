@@ -162,3 +162,52 @@ label + textarea {
 h3 ~ p {
   color: gray;
 }
+
+.profile-container a {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-container img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  padding: 10px;
+  min-width: 160px;
+  z-index: 10;
+  text-align: left;
+}
+
+.dropdown-menu p,
+.dropdown-menu a {
+  margin: 0;
+  padding: 2px 0;
+  text-align: left;
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
